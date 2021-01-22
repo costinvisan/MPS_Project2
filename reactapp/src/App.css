@@ -11,6 +11,7 @@
 .sala4,
 .sala5,
 .sala6,
+.form,
 .home,
 .services,
 .products,
@@ -44,7 +45,7 @@
 }
 
 .sign-up {
-  background-image: url('images/img-8.jpg');
+  background-image: url('images/imagine5.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -98,4 +99,12 @@
   background-repeat: no-repeat;
   color: #fff;
   font-size: 100px;
+}
+.form {
+  background-image: url('images/imagine9.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 40px;
 }
