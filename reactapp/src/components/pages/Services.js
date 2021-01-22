@@ -4,7 +4,9 @@ import '../../App.css';
 import { Button } from '../Button';
 import { Link } from 'react-router-dom';
 import '../Navbar.css';
-
+import Navbar from '../Navbar';
+import sala1 from './sala1';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 export default function Services() {
   const [click, setClick] = useState(false);
   const closeMobileMenu = () => setClick(false);
@@ -14,18 +16,39 @@ export default function Services() {
   return (
         <> 
 
-<div className='services' >
-  <p>   RESOURCES </p>
+<div className='services'>
+  <p>  RESOURCES </p>
   <div class="dropdown">
   <button class="dropbtn">Resources</button>
-  <div class="dropdown-content">
-  <a href="#">sala 1</a>
-  <a href="#">sala 2</a>
-  <a href="#">sala 3</a>
-  <a href="#">Link 3</a>
-  <a href="#">Link 3</a>
-  <a href="#">Link 3</a>
-  </div>
+    <div class="dropdown-content">
+    <Link
+        to='/sala1'
+        className='nav-links'
+     > sala 1 </Link>
+     <Link
+        to='/sala2'
+        className='nav-links'
+     > sala 2 </Link>
+     <Link
+        to='/sala3'
+        className='nav-links'
+     > sala 3 </Link>
+     <Link
+        to='/sala4'
+        className='nav-links'
+     > sala 4 </Link>
+     <Link
+        to='/sala5'
+        className='nav-links'
+     > sala 5 </Link>
+     <Link
+        to='/sala6'
+        className='nav-links'
+     > sala 6 </Link>
+    </div>
+   
+ 
+  
 </div>
 </div>
 

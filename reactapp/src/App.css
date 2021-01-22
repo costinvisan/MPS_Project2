@@ -5,7 +5,12 @@
   font-family: 'PT Sans', sans-serif;
   
 }
-
+.sala1,
+.sala2,
+.sala3,
+.sala4,
+.sala5,
+.sala6,
 .home,
 .services,
 .products,
@@ -40,6 +45,54 @@
 
 .sign-up {
   background-image: url('images/img-8.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+.sala1 {
+  background-image: url('images/heartbeat.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+.sala2 {
+  background-image: url('images/heartbeat.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+.sala3 {
+  background-image: url('images/heartbeat.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+.sala4 {
+  background-image: url('images/heartbeat.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+.sala5 {
+  background-image: url('images/heartbeat.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+.sala6 {
+  background-image: url('images/heartbeat.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
