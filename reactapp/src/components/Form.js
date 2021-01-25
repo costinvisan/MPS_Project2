@@ -1,16 +1,39 @@
-import React, { Component } from 'react'
+import React, {  useState, useEffect, Component } from 'react'
+import { Button } from './Button';
 
-export class Form extends Component {
+// const [click, setClick] = useState(false);
+// const [button, setButton] = useState(true);
+
+    
+//   const showButton = () => {
+//     if (window.innerWidth <= 960) {
+//       setButton(false);
+//     } else {
+//       setButton(true);
+//     }
+//   };
+
+//   useEffect(() => {
+//     showButton();
+//   }, []);
+
+//   window.addEventListener('resize', showButton);
+
+export class Form extends Component {  
+    
+
     constructor(props) {
         super(props)
     
         this.state = {
              username: '',
+             password: '',
              comments: '',
              topic: 'option1'
+             
         }
     }
-    
+  
     handlerUsernameChange = event => {
         this.setState({
             username: event.target.value
@@ -32,6 +55,11 @@ export class Form extends Component {
         alert(`${this.state.username} ${this.state.comments} ${this.state.topic}`)
         event.preventDefault();
     }
+    handlePassword = event => {
+        this.setState({
+            password: event.target.value
+        })
+    }
     render() {
         return (
             <div className='form'>
@@ -44,6 +72,13 @@ export class Form extends Component {
                 </div>
 
                 <div>
+                    <label>Password</label>
+                    <input type='password'
+                    value={this.state.password}
+                    onChange={this.handlePassword} />
+                </div>
+
+                {/* <div>
                     <label> Comments</label>
                     <textarea
                         value={this.state.comments}
@@ -62,10 +97,11 @@ export class Form extends Component {
                         <option value="option1"> option1</option>
                         <option value="option2"> option2</option>
                         <option value="option3"> option3</option>
-                    </select>
+                    </select> 
 
-                </div>
-                <button type="submit">Submit</button>
+                </div> */}
+                 <Button type="submit">Submit</Button> 
+                {/* {button && <Button buttonStyle='btn--outline'>SUBMIT</Button>} */}
             </form>
             </div>
         )

@@ -13,6 +13,7 @@ import sala4 from './components/pages/sala4';
 import sala5 from './components/pages/sala5';
 import sala6 from './components/pages/sala6';
 import Form from './components/Form';
+import Login from './components/Login';
 
 function App() {
   return (
@@ -30,6 +31,10 @@ function App() {
           <Route path='/sala4' component={sala4} />
           <Route path='/sala5' component={sala5} />
           <Route path='/sala6' component={sala6} />
+          <Route path='/login' component={Login} />
+          {/* <Route path="/">
+          <Login authHandler={authHandler} userDataHandler={userDataHandler} />
+          </Route> */}
           <Route path='/form' component={Form} />
         </Switch>
       </Router>
