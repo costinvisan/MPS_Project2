@@ -208,10 +208,15 @@ const Login = (data: LoginProps) => {
     }
   };
   return (
-    <div className="container">
-      {hasAccount === true ? LoginScreen() : SignUpScreen()}
-      <div> {StatusScreen()} </div>
-    </div>
+    <> 
+
+    <div className='login'>
+      <div className="container">
+        {hasAccount === true ? LoginScreen() : SignUpScreen()}
+        <div> {StatusScreen()} </div>
+      </div>
+      </div>
+      </>
   );
 };
 

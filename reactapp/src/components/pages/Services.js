@@ -18,8 +18,9 @@ export default function Services() {
 
 <div className='services'>
   <p>  RESOURCES </p>
-  <div class="dropdown">
-  <button class="dropbtn">Resources</button>
+
+  <div class="dropdown"> 
+  <button class="btn--medium">Resources</button>
     <div class="dropdown-content">
     <Link
         to='/sala1'
@@ -47,15 +48,22 @@ export default function Services() {
      > sala 6 </Link>
     </div>
    
-    <li className="app-navigation-list-item">
-            <button type="button" className="btn btn-primary">
-              <Link to="/" className="app-navigation-link-item">
+    
+  
+</div>
+
+      <div>
+            <button type="button" className="btn--medium">
+              <Link to="/login" className="app-navigation-link-item">
                 Login
               </Link>
             </button>
-          </li>
-  
-</div>
+      </div>
+      <div>
+            <button type="button" className="btn--red">
+             Emergency
+            </button>
+      </div>
 </div>
 
          

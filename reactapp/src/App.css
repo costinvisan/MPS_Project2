@@ -1,9 +1,9 @@
-* {
+ *{
   box-sizing: border-box;
   margin: 0;
   padding: 0;
   font-family: 'PT Sans', sans-serif;
-  
+   
 }
 .sala1,
 .sala2,
@@ -13,6 +13,7 @@
 .sala6,
 .form,
 .home,
+.login,
 .services,
 .products,
 .sign-up {
@@ -41,7 +42,9 @@
   background-size: fill;
   background-repeat: no-repeat;
   color: #fff;
-  font-size: 100px;
+  font-size: 20px;
+  text-align:left;
+  flex-direction: column;
 }
 
 .sign-up {
@@ -53,52 +56,52 @@
   font-size: 100px;
 }
 .sala1 {
-  background-image: url('images/heartbeat.jpg');
+  background-image: url('images/imagine16.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   color: #fff;
-  font-size: 100px;
+  font-size: 20px;
 }
 .sala2 {
-  background-image: url('images/heartbeat.jpg');
+  background-image: url('images/imagine16.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   color: #fff;
-  font-size: 100px;
+  font-size: 20px;
 }
 .sala3 {
-  background-image: url('images/heartbeat.jpg');
+  background-image: url('images/imagine16.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   color: #fff;
-  font-size: 100px;
+  font-size: 20px;
 }
 .sala4 {
-  background-image: url('images/heartbeat.jpg');
+  background-image: url('images/imagine16.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   color: #fff;
-  font-size: 100px;
+  font-size: 20px;
 }
 .sala5 {
-  background-image: url('images/heartbeat.jpg');
+  background-image: url('images/imagine16.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   color: #fff;
-  font-size: 100px;
+  font-size: 20px;
 }
 .sala6 {
-  background-image: url('images/heartbeat.jpg');
+  background-image: url('images/imagine16.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   color: #fff;
-  font-size: 100px;
+  font-size: 20px;
 }
 .form {
   background-image: url('images/imagine9.jpg');
@@ -109,10 +112,10 @@
   font-size: 40px;
 }
 .login {
-  background-image: url('images/imagine9.jpg');
+  background-image: url('images/imagine10.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   color: #fff;
-  font-size: 40px;
+  font-size: 20px;
 }

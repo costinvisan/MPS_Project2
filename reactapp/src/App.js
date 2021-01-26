@@ -32,12 +32,14 @@ function App() {
           <Route path='/sala5' component={sala5} />
           <Route path='/sala6' component={sala6} />
           <Route path='/login' component={Login} />
+         
           {/* <Route path="/">
           <Login authHandler={authHandler} userDataHandler={userDataHandler} />
           </Route> */}
           <Route path='/form' component={Form} />
         </Switch>
       </Router>
+      
     </>
   );
 }
