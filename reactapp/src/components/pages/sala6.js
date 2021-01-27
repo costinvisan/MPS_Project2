@@ -2,6 +2,7 @@ import React from 'react';
 import '../../App.css';
 import Header6 from '../app2/Header6';
 import Footer from '../app2/Footer'; 
+import RoomResponse6 from 'components/app2/RoomResponse6';
 
 export default function sala6() {
    return (

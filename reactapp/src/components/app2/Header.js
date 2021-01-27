@@ -91,7 +91,7 @@ class Header extends Component{
                                 </div>
                         </Nav>
 
-                    <Route exact strict path='/' component={Home}/>
+                    {/* <Route exact strict path='/' component={Home}/> */}
 
                     <Route exact strict path='/addpatient' component={AddUser}/>
                     <Route exact strict path='/allpatients' component={AllUsers}/>

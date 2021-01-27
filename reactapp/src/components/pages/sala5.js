@@ -2,6 +2,7 @@ import React from 'react';
 import '../../App.css';
 import Header5 from '../app2/Header5';
 import Footer from '../app2/Footer';
+import RoomResponse5 from 'components/app2/RoomResponse5';
 
 export default function sala5() {
    return (
@@ -14,6 +15,7 @@ Sala se afla la etajul 2, in aripa de Vest a spitalului.
 
          </p>
       </div>
+    
       <Header5 />
       <br/><br/><br/>
       <Footer />
